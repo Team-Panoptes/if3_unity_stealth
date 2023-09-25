@@ -121,7 +121,7 @@ GameObject:
   - component: {fileID: 7625903210119512141}
   m_Layer: 0
   m_Name: Guard
-  m_TagString: Untagged
+  m_TagString: Guard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -176,7 +176,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3ce3e18e3c67084b80a64eaa38933f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  state: 0
   waypoints: {fileID: 0}
+  maxViewDistance: 5
+  maxViewAngle: 45
 --- !u!54 &7625903210119512141
 Rigidbody:
   m_ObjectHideFlags: 0
